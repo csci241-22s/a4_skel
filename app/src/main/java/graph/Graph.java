@@ -4,8 +4,8 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
 
-/** A graph class representing a graph in adjacency-list style format. The
- * Graph stores a mapping from unique String node identifiers to respective
+/** A graph class representing a directed graph in adjacency-list style format.
+ * The Graph stores a mapping from unique String node identifiers to respective
  * Node objects. Edges are stored in each Node's neighbors, accessible by its
  * getNeighbors field. */
 public class Graph {
